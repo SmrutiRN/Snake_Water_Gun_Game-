@@ -58,7 +58,7 @@ try :
          player_point = player_point + 1
          print("")
          print(" ", x * 50)
-         print(" ", x * 22, "WON", x * 23)
+         print(" ", x * 22, " WON ", x * 23)
          print(" ", x * 50)
          print(f"  You Choice      : {game_element[player_S]}")
          print(f"  Computer Choice : {game_element[random_coice]}")
@@ -68,7 +68,7 @@ try :
          computr = computr + 1
          print("")
          print(" ", x * 50)
-         print(" ", x * 20, "LOSS", x * 24)
+         print(" ", x * 20, " LOSS ", x * 24)
          print(" ", x * 50)
          print(f"  You Choice      : {game_element[player_S]}")
          print(f"  Computer Choice : {game_element[random_coice]}")
@@ -77,7 +77,7 @@ try :
          player_point = player_point + 1
          print("")
          print(" ", x * 50)
-         print(" ", x * 22, "WON", x * 23)
+         print(" ", x * 22, " WON ", x * 23)
          print(" ", x * 50)
          print(f"  You Choice      : {game_element[player_S]}")
          print(f"  Computer Choice : {game_element[random_coice]}")
@@ -85,7 +85,7 @@ try :
      elif player_S == random_coice :
          print("")
          print(" ", x * 50)
-         print(" ", x * 20, "DRAW", x * 24)
+         print(" ", x * 20, " DRAW ", x * 24)
          print(" ", x * 50)
          print(f"  You Choice      : {game_element[player_S]}")
          print(f"  Computer Choice : {game_element[random_coice]}")
